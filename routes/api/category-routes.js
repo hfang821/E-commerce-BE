@@ -12,8 +12,8 @@ router.get("/", (req, res) => {
       {
         model: Product,
         attributes: ["id", "product_name", "price", "stock", "category_id"],
-      },
-    ],
+      }
+    ]
   })
     .then((categories) => res.json(categories))
     .catch((err) => res.status(500).json(err));
@@ -28,9 +28,9 @@ router.get("/:id", (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ["id", "product_name", "price", "stock", "category_id"],
-      },
-    ],
+        attributes: ["id", "product_name", "price", "stock", "category_id"]
+      }
+    ]
   })
     .then((category) => {
       if (!category) {
@@ -81,7 +81,7 @@ router.put("/:id", (req, res) => {
 router.delete("/:id", (req, res) => {
   // delete a category by its `id` value
   Category.destroy({
-    where: { id: req.params.id },
+    where: { id: req.params.id }
   })
     .then((category) => {
       if (!category) {
