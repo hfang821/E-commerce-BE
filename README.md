@@ -35,9 +35,12 @@ npm Sequelize & Object-Relational Mapping
 2. type in `source db/schema.sql` to feed the relational tables into the database.
 ![image](https://user-images.githubusercontent.com/95199209/169615691-104af2c3-036e-46bc-9c4e-aca7b25d122d.png)
 
+3. Create a `.env` file in your root directory, as the seeding the database requires connection to your database
+![image](https://user-images.githubusercontent.com/95199209/169618317-6fc8da0c-3f44-417d-be33-a0fd645e5e57.png)
 
-3. Exit the sql CLI, and seed the database by typing `npm run seeds`.
-![image](https://user-images.githubusercontent.com/95199209/169615758-724fe95a-9491-4310-aac5-c0c930a94994.png)
+
+4. Exit the sql CLI, and seed the database by typing `npm run seed`.
+![image](https://user-images.githubusercontent.com/95199209/169618350-48551028-5efa-4842-9c16-10c3a4b553ed.png)
 
 
 ## How to Use:
