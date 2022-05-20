@@ -17,8 +17,9 @@ npm Sequelize & Object-Relational Mapping
 * Prettier
 
 # Wall-Around Installation Video
-* How to install & how to use: 
-* Testing the CRUD Operations: 
+* How to install & how to use: https://drive.google.com/file/d/1viJPgHDIvAgz4hUwm--CnEKD3XeKnMA_/view
+* Testing the CRUD Operations 1 (Category_route): https://drive.google.com/file/d/1RgACGhHOxndVDMOCzsR2kIQF3CBP1LhG/view
+* Testing the CRUD Operations 2 (Tag_route && Product_route):https://drive.google.com/file/d/1DxkmjxngFYhHlaaOgYH2TeHzWYWIFpi5/view
 
 
 ## How to Install:
